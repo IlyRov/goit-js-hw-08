@@ -29,9 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
 feedbackForm.addEventListener('submit', (event) => {
   event.preventDefault();
   
-  // Ваш код обробки форми
-
-  // Очистити локальне сховище
   localStorage.removeItem('feedback-form-state');
 });
 

@@ -1,5 +1,5 @@
 // Імпорт бібліотеки SimpleLightbox
-import SimpleLightbox from './simplelightbox';
+import SimpleLightbox from 'simplelightbox';
 
 
 // Імпорт стилів бібліотеки SimpleLightbox

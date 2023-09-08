@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
 feedbackForm.addEventListener('submit', (event) => {
   event.preventDefault();
   
+  emailInput.value = '';
+  messageTextarea.value = '';
+
   localStorage.removeItem('feedback-form-state');
 });
-
